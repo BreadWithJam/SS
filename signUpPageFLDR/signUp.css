@@ -1,0 +1,42 @@
+body html{
+    height: 100vh;
+}
+.bg{
+    background-image: url(../images/lightGreenBG.jpg);
+    background-size: cover;
+}
+
+.navbar_size{
+    margin-left: 14%;
+    border-radius: 8px;
+   
+}
+
+
+.bgGlass{
+    background-color: rgba(121, 114, 114, 0.2);
+    backdrop-filter: saturate(180%) blur(10px);
+    border-top: 2px solid rgba(22, 21, 21, 0.23);
+    border-left: 2px solid rgba(22, 21, 21, 0.23);  ;
+}
+
+.font{ 
+        font-family:'Brush Script MT';
+        font-size:60px;
+        
+      }
+  .signInButton{
+     padding: none; 
+     text-align: center;
+     text-decoration: none;
+     cursor: pointer;
+     border-radius: 18px;
+  }
+
+  .pButton{
+    color: #193C0D;
+    margin-top: 5%;
+    font-size: 15px;
+    font-weight: bold;
+  }
+   
