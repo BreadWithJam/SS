@@ -6,3 +6,36 @@ body html{
     background-image: url(../images/lightGreenBG.jpg);
     background-size: cover;
 }
+
+.SignUpForm{
+    width:70%; 
+    height: 550px; 
+    margin-left:15%; 
+    margin-top: 4%; 
+    border-radius: 10px;
+    background-color: #193c0d;
+    border: solid 3px;
+    border-color: whitesmoke;
+}
+
+.SSlogo{
+    height: 40px;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.shoppingImage{
+    height: 544px;
+    width: 452px;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+.formMargin{
+    margin-left: 5%;
+}
+
+.label{
+    color: bisque;
+    font-size: 12px;
+}
