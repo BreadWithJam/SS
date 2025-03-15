@@ -11,7 +11,7 @@ body html{
     width:70%; 
     height: 550px; 
     margin-left:15%; 
-    margin-top: 4%; 
+    margin-top: 2%; 
     border-radius: 10px;
     background-color: #193c0d;
     border: solid 3px;
@@ -26,7 +26,7 @@ body html{
 
 .shoppingImage{
     height: 544px;
-    width: 527px;
+    width: 532px;
     border-top-right-radius: 2%;
     border-bottom-right-radius: 1%;
 }
