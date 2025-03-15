@@ -33,10 +33,21 @@ body html{
      border-radius: 18px;
   }
 
+  .signUpButton{
+    border-radius: 5%; 
+    margin-left: 50px; 
+    margin: top 0.5em; 
+    padding: 8px 50px; 
+    height: 40px; 
+    background-color: #040406;
+   }
+
   .pButton{
     color: #040406;
     margin-top: 5%;
     font-size: 15px;
     font-weight: bold;
   }
+  
+ 
    
