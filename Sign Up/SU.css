@@ -20,22 +20,46 @@ body html{
 
 .SSlogo{
     height: 40px;
-    margin-top: 3%;
-    margin-left: 5%;
+    margin-top: 5%;
+    margin-left: 10%;
 }
 
 .shoppingImage{
     height: 544px;
-    width: 452px;
+    width: 527px;
     border-top-right-radius: 2%;
-    border-bottom-right-radius: 2%;
+    border-bottom-right-radius: 1%;
 }
 
 .formMargin{
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .label{
     color: bisque;
     font-size: 12px;
+}
+
+.textBoxStyle{
+    background-color: rgba(0,0,0,0);
+    border-color: rgb(139, 235, 139);
+    border-width: 1.5px;
+}
+
+.submitButton{
+    padding: 8px 106px; 
+    margin-top: 7%; 
+    background-color: rgb(143, 7, 7); 
+    border-color: rgb(68, 4, 4); 
+    border-width: 1.5px;
+    color: bisque;
+}
+
+::placeholder{
+    color: rgb(30, 51, 30);
+    font-size: 12px;
+}
+.submitButton:hover{
+    background-color: #002ead;
+    border-color: red;
 }
