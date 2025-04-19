@@ -11,12 +11,12 @@ body html{
 }
 
 .glassForm{
-    background: rgba(127, 165, 127, 0.5);
+    background: rgba(54, 88, 54, 0.5);
     backdrop-filter: saturate(160%) blur(8px);
     margin-top: 2%; 
     height: 550px;
-    width: 35%;
-    margin-left: 30%; 
+    width: 30%;
+    margin-left: 33%; 
     border-radius: 3%;
     border-top: 1px solid rgba(255, 255,255, 0.4);
     border-right:1px solid rgba(255, 255,255, 0.4);
@@ -28,4 +28,14 @@ body html{
     margin-top: 20%;
     margin-left: 25%;
     margin-right: 20%;
+}
+
+.loginButton{
+    padding: 8px 90px; 
+    margin-top: 20%; 
+    background-color:#193c0d; 
+    border-color: #2e6408; 
+    border-width: 1.5px;
+    color: #bcdda5;
+    border-radius: 7px;
 }
