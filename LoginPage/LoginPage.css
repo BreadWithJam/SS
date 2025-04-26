@@ -1,20 +1,41 @@
 body html{
     height: 100vh;
 }
-.bg{
+/*.bg{
     background-image: url(../images/green_shopping_wallpaper.jpg);
     background-size: cover; 
     background-attachment: fixed;
     background-position: center;
     height: 100%;
     background-repeat: no-repeat    ;
+}*/
+
+.bg{
+    height: 100%;
+    background-image: url(../images/lightGreenBG.jpg);
+    background-size: cover;
 }
 
+.loginForm{
+    margin-left:15%; 
+    margin-top: 2%; 
+    border-radius: 10px;
+    background-color: #193c0d;
+    border: solid 3px;
+    border-color: #f7f2ee;
+}
+
+.shoppingImage{
+    height: 544px;
+    width: 800px;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 1%;
+}
 .glassForm{
     background: rgba(54, 88, 54, 0.5);
     backdrop-filter: saturate(160%) blur(8px);
-    margin-top: 2%; 
-    height: 550px;
+    margin-top: 5%; 
+    height: 480px;
     width: 30%;
     margin-left: 33%; 
     border-radius: 3%;
