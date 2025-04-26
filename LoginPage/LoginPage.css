@@ -20,33 +20,35 @@ body html{
     margin-left:15%; 
     margin-top: 2%; 
     border-radius: 10px;
-    background-color: #193c0d;
     border: solid 3px;
     border-color: #f7f2ee;
 }
 
 .shoppingImage{
+    /*position: absolute;*/
+    background-image: url(../images/shopping_green_theme.jpg);
+    background-size: cover;
+    background-position: center;
     height: 544px;
-    width: 800px;
-    border-top-right-radius: 2%;
+    width: 1110px;
+    border-top-right-radius: 1%;
     border-bottom-right-radius: 1%;
+    margin-left: 0%;
+    z-index: 1;
+   background-repeat: no-repeat;
+    
 }
-.glassForm{
-    background: rgba(54, 88, 54, 0.5);
-    backdrop-filter: saturate(160%) blur(8px);
-    margin-top: 5%; 
-    height: 480px;
-    width: 30%;
-    margin-left: 33%; 
-    border-radius: 3%;
-    border-top: 1px solid rgba(255, 255,255, 0.4);
-    border-right:1px solid rgba(255, 255,255, 0.4);
-    box-shadow: 3px 3px 3px rgba(0,0,0,0.089);
 
-}
+.Lcontainer {
+    position: relative;
+    width: 70%;
+    height: 50%; 
+    overflow: hidden;
+  }
 
 .formMargin{
-    margin-top: 20%;
+    
+   /* margin-top: 5%;*/
     margin-left: 25%;
     margin-right: 20%;
 }
@@ -59,4 +61,40 @@ body html{
     border-width: 1.5px;
     color: #bcdda5;
     border-radius: 7px;
-}
+} 
+
+.glassForm {
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    height: 490px;
+    width: 40%;  
+    background: rgba(54, 88, 54, 0.5);
+    backdrop-filter: saturate(160%) blur(8px);
+    border-radius: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
+    z-index: 2;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  .LshoppingImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/shopping_green_theme.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    z-index: 1;
+  }
+
