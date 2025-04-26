@@ -48,6 +48,18 @@ body html{
     font-size: 15px;
     font-weight: semibold;
   }
+
+  .glassDesign{
+    background:  #27252515;
+    backdrop-filter: saturate(120%) blur(30px);
+    border-radius: 3%;
+    border-top: 1.5px solid rgba(22, 21, 21, 0.23);
+    border-right: 1.5px solid rgba(22, 21, 21, 0.23);
+    height: 230px;
+    width: 400px;
+    margin-top: 6%;
+    margin-left: 9%;
+}
   
  
    
