@@ -61,5 +61,12 @@ body html{
     margin-left: 9%;
 }
   
- 
+ .navbarGlass{
+    background: #27252515;
+    backdrop-filter: saturation(120%) blur(30px);
+    width: 1325px;
+    border-top: 1.5px solid rgba(22, 21, 21, 0.23);
+    border-right: 1.5px solid rgba(22, 21, 21, 0.23);
+
+ }
    
