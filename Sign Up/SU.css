@@ -19,9 +19,9 @@ body html{
 }
 
 .SSlogo{
-    height: 40px;
+    height: 70px;
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .shoppingImage{
@@ -49,10 +49,10 @@ body html{
 .submitButton{
     padding: 8px 106px; 
     margin-top: 10%; 
-    background-color: #9fc287 ; 
-    border-color: #c6866b; 
+    background: #FFC0CB; 
+    border-color: #49c045; 
     border-width: 1.5px;
-    color: #1e3d36;
+    color: #070707;
 }
 
 ::placeholder{
@@ -61,7 +61,7 @@ body html{
 }
 
 .submitButton:hover{
-    background-color: #002ead;
+    background: #002ead;
     border-color: red;
     color: yellow;
 }
