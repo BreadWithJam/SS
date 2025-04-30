@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="./LandingPage/PracJS.css">
     <script src = "js/bootstrap.bundle.min.js"></script>
-    
+    <script defer src="app.js"></script>
     <title>Shopping Spree </title>
 </head>
 
@@ -18,7 +18,8 @@
         <div class="col-lg-7" style = "height: 425px;">
         <span class = "navbar-brand mb-3 h1 navbarGlass" style="display: flex; flex-direction: row; margin-top: 1%;">
           <img src="./images/SSlogo2.png" alt="logo" style="height:60px; width: 120px; padding-left: 20px;">
-</span>     
+</span> 
+  <!-- --------------------------Carousel----------------------------------------------- -->
         <div id = "carouselContent" class = "carousel slide" data-bs-ride = "carousel">
           <div class = "carousel-inner">
             <div class="carousel-item active" data-bs-interval="1100">
@@ -45,14 +46,11 @@
           </div>
         </div>
       </div>
-
+<!-- ------------------------------NavBar--------------------------------------- -->
       <div class="col-lg-5">
       <nav class = " navbar">
         <div class = "container-fluid">
           <span class = "navbar-brand mb-3 h1" style="flex-direction: row; margin-top: 1%;">
-            <!-- <button type="button" class = "btn btn-sm"style="border-radius: 5%; padding-left:20px; padding: 2px 20px;"><p class= "pButton">About</p></button> -->
-            <!-- <button type="button" class = "btn btn-sm" style = "border-radius: 5%; padding-left:50px; padding: 8px 20px;"><p class = "pButton">Contact</p></button> -->
-            <!-- <a href="file:///C:/xamp/htdocs/SS/Login.html" area-current ="page"> -->
         <ul class="nav-menu">
           <li class="nav-item">
             <a href="#" class="nav-link">About</a>
@@ -67,9 +65,11 @@
             <a href="file:///C:/xamp/htdocs/SS/SignUp.html" class="nav-link">SignUp</a>
           </li>
         </ul>
-          </span>
-        
+          </span>       
         </nav>
+
+        <!-- ----------------------------Text----------------------------------------------------------------- -->
+       <div class="slide hidden">
         <h1 style="text-align: center; color: #040406; font-family:system-ui,'Segoe UI', Roboto,'Open Sans', sans-serif;"> YOUR 
          
         </h1>
@@ -80,10 +80,12 @@
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
           nisi ut aliquip ex ea commodo consequat.</p>
-
+        </div>
       </div>
       </div>
     </div>
+ 
+<!-- -------------------------------------------Promo---------------------------------------- -->
     <div class="container-fluid">
       <div class="row">
        
@@ -107,5 +109,14 @@
       </div>
       </div>
     </div>
+  
+
+  <section class="hidden slideJS">
+    <p class="h1">ghfsdghjsdvhvgh</p>
+  </section>
+
+  <section class="hidden slideJS">
+    <p class="h1">Eyyyyyyyyy</p>
+  </section>
 </body>
 </html>
