@@ -116,7 +116,7 @@ input[type=text]{
   border-radius: 15px;
   height: 40px;
   width: 40%;
-  margin-top: 10px;
+  margin-top: 15px;
   border-width: .5px;
   border-color: rgb(6, 59, 24);
   margin-right: 20px;
@@ -125,7 +125,7 @@ input[type=text]{
 .Sbutton{
   float: right;
   padding: 6px 10px;
-  margin-top: 1.5%;
+  margin-top: 2%;
   margin-right: 16px;
   font-size: 17px;
   border: none;
