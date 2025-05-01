@@ -44,13 +44,6 @@ a{
   background:#FFC0CB;
 }
 
-.bgGlass{
-    background-color: rgba(121, 114, 114, 0.226);
-    backdrop-filter: saturate(180%) blur(10px);
-    border-top: 2px solid rgba(22, 21, 21, 0.23);
-    border-left: 2px solid rgba(22, 21, 21, 0.23);  ;
-}
-
 .font{ 
         font-family:'Brush Script MT';
         font-size:60px;
@@ -86,8 +79,6 @@ a{
 
  }
 
-
-
  .slideJS{
   display: grid;
   place-items: center;
@@ -101,6 +92,8 @@ a{
   transform: translateX(100%);
   transition: all 1s;
  }
+
+
  .show{
   opacity: 1;
   filter: blur(0);
