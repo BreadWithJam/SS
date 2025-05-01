@@ -63,9 +63,9 @@ a{
     border-radius: 3%;
     border-top: 1.5px solid rgba(43, 41, 41, 0.267);
     border-right: 1.5px solid rgba(43, 41, 41, 0.267);
-    height: 250px;
+    height: 165px;
     width: 400px;
-    margin-top: 6%;
+    margin-top: 0%;
     margin-left: 9%;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
 }
@@ -76,7 +76,6 @@ a{
     width: 1325px;
     border-top: 1px solid rgba(22, 21, 21, 0.23);
     border-right: 1px solid rgba(22, 21, 21, 0.23);
-
  }
 
  .slideJS{
@@ -84,6 +83,7 @@ a{
   place-items: center;
   align-content: center;
   min-height: 100vh;
+  max-width: fit-content;
  }
    
  .hidden{
@@ -99,3 +99,48 @@ a{
   filter: blur(0);
   transform: translateX(0);
  }
+
+ .kaushan-script-regular {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  text-shadow: 3px 3px 3px #918f8f;
+}
+
+input[type=text]{
+  font-size: 17px;
+  padding: 6px;
+  margin-left: 5%;
+  background-color: #fca2b159;
+  border-radius: 15px;
+  height: 40px;
+  width: 40%;
+  margin-top: 10px;
+  border-width: .5px;
+  border-color: rgb(6, 59, 24);
+  margin-right: 20px;
+}
+
+.Sbutton{
+  float: right;
+  padding: 6px 10px;
+  margin-top: 1.5%;
+  margin-right: 16px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  padding: 8px 106px;  
+  background: #580715; 
+  border-color: #49c045; 
+  border-width: 1.5px;
+  color: #070707;
+  background-image: url("../images/search.png");
+  background-repeat: no-repeat;
+}
+
+
+
